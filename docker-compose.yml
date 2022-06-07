@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  web:
+      build: .
+      command: sh -c "echo `date` && echo 'Mateusz Wojcik port 8000' && node server.js"
+      volumes:
+        - .:/code/
+        - /code/node_modules
+      ports:
+        - "8000:8000"
