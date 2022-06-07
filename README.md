@@ -86,5 +86,19 @@ docker history zadanie1_fullstack_web
 ![image](https://user-images.githubusercontent.com/62160228/172490527-db2853f3-0e29-4419-9b64-ddfda5ebf17f.png)
 
 
+### Część 4
+
+Zbudować obrazy kontenera z aplikacją opracowaną w punkcie nr 1, które będą pracował na
+architekturach: linux/arm/v7, linux/arm64/v8 oraz linux/amd64. Obrazy te należy przesłać do
+swojego repozytorium na DockerHub. W sprawozdaniu należy podać wykorzystane instrukcje wraz
+z wynikiem ich działania I ewentualnymi komentarzami.
+
+Do zbudowania obrazu użyto komendy:
+
+```bash
+docker buildx build -t mastiw/zadanie1_fullstack --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
+```
+
+![image](https://user-images.githubusercontent.com/62160228/172497683-ce48e230-08c5-4bff-9398-8c03feec5fdc.png)
 
 
