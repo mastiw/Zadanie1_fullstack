@@ -24,3 +24,15 @@ docker logs -f zadanie1_fullstack_web_1
 wyświetlona strona informująca o adresie IP klienta i na podstawie tego adresu IP, o dacie
 i godzinie w jego strefie czasowej.
 W sprawozdaniu proszę umieścić kod oprogramowania wraz z niezbędnymi komentarzami. 
+
+Użyto strony ipinfo.io w celu wyświetlenia informacji o adresie IP klienta:
+
+![image](https://user-images.githubusercontent.com/62160228/172487844-464b7b73-0987-4af3-8b59-41abedd8d165.png)
+
+Kod źródłowy strony do wyświetlania adresu IP klienta:
+
+![image](https://user-images.githubusercontent.com/62160228/172488188-c78498d5-1014-46cd-b64a-290abef53c14.png)
+
+
+
+
