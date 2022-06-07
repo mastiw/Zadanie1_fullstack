@@ -48,8 +48,33 @@ Zawartość pliku docker-compose:
 
 ![image](https://user-images.githubusercontent.com/62160228/172488759-8f2e6092-3ac3-49f0-a2cf-9ebaad1e92ed.png)
 
+### Część 3
 
+Należy podać polecenia niezbędne do:
+- a. zbudowania opracowanego obrazu kontenera,
 
+```bash
+docker-compose build
+```
+
+![image](https://user-images.githubusercontent.com/62160228/172490122-d047558f-f11d-488c-9b27-bf23db2e90a7.png)
+
+- b. uruchomienia kontenera na podstawie zbudowanego obrazu,
+
+```bash
+docker-compose up -d
+```
+- c. sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera
+(patrz: punkt 1a),
+
+```bash
+docker logs -f zadanie1_fullstack_web_1
+```
+- d. sprawdzenia, ile warstw posiada zbudowany obraz.
+
+```bash
+docker history zadanie1_fullstack_web
+```
 
 
 
