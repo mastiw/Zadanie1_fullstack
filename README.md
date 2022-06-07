@@ -99,6 +99,6 @@ Do zbudowania obrazu użyto komendy:
 docker buildx build -t mastiw/zadanie1_fullstack --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
 ```
 
-![image](https://user-images.githubusercontent.com/62160228/172497683-ce48e230-08c5-4bff-9398-8c03feec5fdc.png)
+![image](https://user-images.githubusercontent.com/62160228/172497939-731e4cb2-aece-403e-8318-0ff0d6c09938.png)
 
 
