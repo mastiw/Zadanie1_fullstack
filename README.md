@@ -64,17 +64,26 @@ docker-compose build
 ```bash
 docker-compose up -d
 ```
+
+![image](https://user-images.githubusercontent.com/62160228/172490490-4f2fd811-5e61-4d4c-b773-107e38d5eb32.png)
+
 - c. sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera
 (patrz: punkt 1a),
 
 ```bash
 docker logs -f zadanie1_fullstack_web_1
 ```
+
+![image](https://user-images.githubusercontent.com/62160228/172490508-62003ccb-d56c-4533-82a3-ad5fa89dba69.png)
+
 - d. sprawdzenia, ile warstw posiada zbudowany obraz.
 
 ```bash
 docker history zadanie1_fullstack_web
 ```
+
+![image](https://user-images.githubusercontent.com/62160228/172490527-db2853f3-0e29-4419-9b64-ddfda5ebf17f.png)
+
 
 
 
