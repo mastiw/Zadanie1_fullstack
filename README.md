@@ -42,7 +42,7 @@ powinien również zawierać informację o autorze tego pliku (ponownie imię i 
 
 Zawartość pliku Dockerfile:
 
-![image](https://user-images.githubusercontent.com/62160228/172488507-4ac89182-519d-4550-8183-e17dfc227be8.png)
+![image](https://user-images.githubusercontent.com/62160228/172489061-a6c18e77-e072-4139-af6b-031e24da38a4.png)
 
 Zawartość pliku docker-compose:
 
