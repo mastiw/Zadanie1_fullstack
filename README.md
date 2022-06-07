@@ -10,14 +10,15 @@ TCP, na którym serwer nasłuchuje na zgłoszenia klienta.
 ```bash
 docker-compose up --build
 ```
-![image](https://user-images.githubusercontent.com/62160228/172490634-cffc658c-cd9b-4c1f-810b-6db854782cc1.png)
+![image](https://user-images.githubusercontent.com/62160228/172490725-24a28f9b-9784-4b22-b985-9b213882447e.png)
+
 
 Wyświetlenie logów kontenera:
 
 ```bash
 docker logs -f zadanie1_fullstack_web_1
 ```
-![image](https://user-images.githubusercontent.com/62160228/172490653-0289a09c-47ed-4af3-9bfb-535528503673.png)
+![image](https://user-images.githubusercontent.com/62160228/172490740-02d557c5-e114-4b97-af34-b75e3d90edc5.png)
 
 
 - b. na podstawie adresu IP klienta łączącego się z serwerem, w przeglądarce powinna zostać
