@@ -101,4 +101,8 @@ docker buildx build -t mastiw/zadanie1_fullstack --platform linux/arm/v7,linux/a
 
 ![image](https://user-images.githubusercontent.com/62160228/172497939-731e4cb2-aece-403e-8318-0ff0d6c09938.png)
 
+Dockerhub:
+
+![image](https://user-images.githubusercontent.com/62160228/172497999-ab5dde73-a05a-4a51-b465-578dadc9e41a.png)
+
 
