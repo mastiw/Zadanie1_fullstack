@@ -22,8 +22,7 @@ docker logs -f zadanie1_fullstack_web_1
 
 - b. na podstawie adresu IP klienta łączącego się z serwerem, w przeglądarce powinna zostać
 wyświetlona strona informująca o adresie IP klienta i na podstawie tego adresu IP, o dacie
-i godzinie w jego strefie czasowej.
-W sprawozdaniu proszę umieścić kod oprogramowania wraz z niezbędnymi komentarzami. 
+i godzinie w jego strefie czasowej. 
 
 Użyto strony ipinfo.io w celu wyświetlenia informacji o adresie IP klienta:
 
@@ -32,6 +31,24 @@ Użyto strony ipinfo.io w celu wyświetlenia informacji o adresie IP klienta:
 Kod źródłowy strony do wyświetlania adresu IP klienta:
 
 ![image](https://user-images.githubusercontent.com/62160228/172488188-c78498d5-1014-46cd-b64a-290abef53c14.png)
+
+### Część 2
+
+Opracować plik Dockerfile, który pozwoli na zbudowanie obrazu kontenera realizującego
+funkcjonalność opisaną w punkcie 1. Przy ocenie brane będzie sposób opracowania tego pliku
+(dobór obrazu bazowego, wieloetapowe budowanie obrazu, ewentualne wykorzystanie warstwy
+scratch, optymalizacja pod kątem funkcjonowania cache-a w procesie budowania). Dockerfile
+powinien również zawierać informację o autorze tego pliku (ponownie imię i nazwisko studenta).
+
+Zawartość pliku Dockerfile:
+
+![image](https://user-images.githubusercontent.com/62160228/172488507-4ac89182-519d-4550-8183-e17dfc227be8.png)
+
+Zawartość pliku docker-compose:
+
+![image](https://user-images.githubusercontent.com/62160228/172488759-8f2e6092-3ac3-49f0-a2cf-9ebaad1e92ed.png)
+
+
 
 
 
