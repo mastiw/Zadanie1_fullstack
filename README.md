@@ -10,7 +10,7 @@ TCP, na którym serwer nasłuchuje na zgłoszenia klienta.
 ```bash
 docker-compose up --build
 ```
-![image](https://user-images.githubusercontent.com/62160228/172483755-8cc82129-af84-4937-9921-1a7fe1bd0088.png)
+![image](https://user-images.githubusercontent.com/62160228/172483885-a4243b00-557a-4103-8003-a2406074f75f.png)
 
 - b. na podstawie adresu IP klienta łączącego się z serwerem, w przeglądarce powinna zostać
 wyświetlona strona informująca o adresie IP klienta i na podstawie tego adresu IP, o dacie
