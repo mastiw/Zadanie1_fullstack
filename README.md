@@ -105,4 +105,28 @@ Dockerhub:
 
 ![image](https://user-images.githubusercontent.com/62160228/172497999-ab5dde73-a05a-4a51-b465-578dadc9e41a.png)
 
+### Część dodatkowa
+
+- z wykorzystaniem GitHubActions
+
+Dodano plik .yml w katalogu workflows umożliwiający użycie GitHubActions oraz dodano tokeny.
+
+![image](https://user-images.githubusercontent.com/62160228/172927806-7f643bec-91bd-4841-9cc0-b46b2af595ce.png)
+
+![image](https://user-images.githubusercontent.com/62160228/172931800-e2cd18e9-fcf9-4f83-8350-5f7dd3a20e6f.png)
+
+- z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem
+konfiguracji GitHub Container Registry
+
+Dodano plik .yml w katalogu workflows umożliwiający użycie GitHub Container Registry.
+
+![image](https://user-images.githubusercontent.com/62160228/172932763-1d27dc92-1f83-49c3-b8f3-d270c13ca984.png)
+
+![image](https://user-images.githubusercontent.com/62160228/172932794-b54ed606-fe24-4edd-bdd5-ed7aada344af.png)
+
+
+
+
+
+
 
