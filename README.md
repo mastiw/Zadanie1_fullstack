@@ -122,7 +122,7 @@ Dodano plik .yml w katalogu workflows umożliwiający użycie GitHub Container R
 
 ![image](https://user-images.githubusercontent.com/62160228/172932763-1d27dc92-1f83-49c3-b8f3-d270c13ca984.png)
 
-![image](https://user-images.githubusercontent.com/62160228/172932794-b54ed606-fe24-4edd-bdd5-ed7aada344af.png)
+![image](https://user-images.githubusercontent.com/62160228/172932905-b2846f54-b924-4c2a-9732-e38cd0a83989.png)
 
 
 
